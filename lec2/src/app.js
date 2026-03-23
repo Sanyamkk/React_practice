@@ -1,14 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import Header from "./components/Header"
-import RestroCard from "./components/RestroCard"
 import Body from "./components/Body"
 import "../style.css"
 
 const AppLayout=()=>{
     return (
         <div className="app">
-            <Header />
+            <Header/>
             <Body/>
         </div>
     )
